@@ -18,7 +18,7 @@ function BlogPostDetails({ listData }) {
         <BackButton tooltip="Go to Homepage" />
         <CardMedia
           component="img"
-          height="300"
+          height="350"
           image={post.urlToImage ? post.urlToImage : noImageFound}
           alt="green iguana"
         />
